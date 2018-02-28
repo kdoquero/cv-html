@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-  max-width: 1440px;
+  max-width: 1654px;
+  max-height: 2339px;
+
 }
 .links {
   align-items: flex-start;
