@@ -2,6 +2,9 @@
 h1 {
   
 }
+body {
+  max-width: 1290px;
+}
 .links {
   align-items: flex-start;
   
