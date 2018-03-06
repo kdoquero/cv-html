@@ -10,7 +10,7 @@
   <title>CV</title>
   <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto');
-    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
     body {
       width: 1240px;
       height: 1754px;
@@ -89,9 +89,9 @@
     h3 {
       display: inline-block;
       color: #212121;
-      font-size: 17px;
+      font-size: 16px;
       margin-bottom: 5px;
-      font-weight: 600;
+      font-weight: 500;
     }
 
     h5 {
@@ -106,7 +106,7 @@
     h6 {
       display: inline-block;
       color: #f72828;
-      font-size: 15px;
+      font-size: 17px;
       margin-bottom: 5px;
       margin-top: 2px;
       font-style: oblique;
@@ -118,6 +118,7 @@
     }
 
     #formation {
+      height: 815px;
       justify-content: space-between;
     }
 
@@ -132,7 +133,7 @@
     }
 
     body {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Roboto', sans-serif;
       color: aliceblue;
     }
 
@@ -158,7 +159,7 @@
 
     header {
       font-family: 'Roboto', sans-serif;
-      min-height: 275px;
+      min-height: 225px;
       align-items: center;
       background-color: #212121;
       color: aliceblue;
@@ -207,7 +208,7 @@
     }
 
     #exp p {
-      font-size: 15px;
+      font-size: 16px;
       color: #212121;
 
     }
@@ -222,7 +223,12 @@
       padding: 5px;
     }
 
-    
+    #subskills {
+      width: 439px;
+    }
+    #skills {
+      width: 540px;
+    }
   </style>
 </head>
 
@@ -313,7 +319,7 @@
             <</span>Skills
               <span>>.</span>
         </h1>
-        <div class="card container-column">
+        <div id="skills" class="card container-column">
           <h3>Languages</h3>
           <p>Html /CSS | JAVASCRIPT | SQL | PHP</p>
           <h3>Frameworks</h3>
@@ -349,8 +355,7 @@
           <p>(suite) : Projet en cours app "my Bank"</p>
           <h3>A venir</h3>
           <p>WordPress : Projet de page web au service d'une bonne cause</p>
-          <h3>Notions</h3>
-          <p>Docker : utilisation dans le cadre d'un environement de developpement</p>
+      
 
 
 
@@ -446,7 +451,7 @@
             <</span>Subskills
               <span>>.</span>
         </h1>
-        <div class="card container-column">
+        <div id="subskills" class="card  container-column">
           <h3>Graphics</h3>
           <p>Photoshop : creation de font d'écran (minitokyo,deviantArt)</p>
           <p>Illustrator : Vectorisation d'image pour mes font d'écrans</p>
